@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(to left, #212122, black);
+    background-color: #141414;
 }
 
 .navigation {
@@ -61,14 +61,30 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: left;
-    margin-left: 50px;
+    margin: 50px;
     padding: 10px;
+    
 }
 
 .judul h1 {
     color: white;
     font-size: 35px;
     font-family: 'Lucida sans', sans-serif;
+    margin-bottom: 0%;
+}
+
+.judul h2 {
+    color: white;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 0%;
+}
+
+.judul h3 {
+    color: white;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 0%;
 }
 
 .judul p {
@@ -88,4 +104,106 @@ body {
     width: 50vh;
     height: 50vh;
     padding: 10px;
+    border-radius: 80px;
 }   
+
+.center-web{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, #6e6e6e, #141414);
+    height: 100vh;
+    width: 100%;
+}
+
+.judul-data-diri h1 {
+    color: white;
+    font-size: 35px;
+    font-family: 'Lucida sans', sans-serif;
+}
+
+.data-diri p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 10px;
+}
+
+.project-side-web{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, #446494, #6e6e6e);
+    height: 100vh;
+    width: 100%;
+}
+
+.judul-project h1 {
+    color: white;
+    font-size: 35px;
+    font-family: 'Lucida sans', sans-serif;
+}
+
+.list-project p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 10px;
+}
+
+.list-project ul {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.list-project ul li {
+    margin-bottom: 10px;
+}
+
+.contact-web{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, #141414, #446494);
+    height: 100vh;
+    width: 100%;
+}
+
+.judul-contact h1 {
+    color: white;
+    font-size: 35px;
+    font-family: 'Lucida sans', sans-serif;
+}
+
+.list-contact p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 10px;
+}
+
+.list-contact ul {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.list-contact ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #212122;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
