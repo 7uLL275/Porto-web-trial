@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to left, #212122, black);
+}
+
+.navigation {
+    background-color: #212122;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.navigasi {
+    list-style-type: none;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.navigasi li a {    
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Lucida sans', sans-serif;
+}
+
+.navigasi li a:hover {
+    color: #008be7;
+    transition: all 0.3s ease-in-out;
+}
+
+.foto-profil {
+    position: absolute;
+    top: 0;
+    right: 0;   
+    padding-right: 40px;
+    padding-top: 18px;
+}
+
+.foto-profil img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.isi-web{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 70%;
+}
+
+.judul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+.judul h1 {
+    color: white;
+    font-size: 35px;
+    font-family: 'Lucida sans', sans-serif;
+}
+
+.judul p {
+    color: white;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.gambar-diri {
+    width: 30px;
+    height: 50vh;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+
+.gambar-diri img {
+    width: 50vh;
+    height: 50vh;
+    padding: 10px;
+}   
