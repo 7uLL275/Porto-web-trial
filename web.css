@@ -164,6 +164,25 @@ body {
     margin-bottom: 10px;
 }
 
+.skills-judul h1 {
+    color: white;
+    font-size: 35px;
+    font-family: 'Lucida sans', sans-serif;
+}
+
+.skills-icon {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    margin-top: 20px;
+}
+
+.skills-icon img{
+     width: 150px;  
+    height: 150px;
+    object-fit: contain; 
+}
+
 .contact-web{
     display: flex;
     flex-direction: column;
